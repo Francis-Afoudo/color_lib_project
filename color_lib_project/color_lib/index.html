@@ -11,11 +11,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="font-[sans-s]">
+
+    <!-----------------############# Header Section ##################------------->
     <header class="md:relative">
         <section class=" bg-[#444] w-full h-[60px]">
-            <div class="flex justify-between w-[100%] h-[60px] items-center">
-                <div class=" w-[50%] min-[375px]:w-[40%] min-[425px]:w-[35%] md:w-[45%] h-[inherit] flex">
+            <div class="flex justify-between w-[100%] h-[inherit] items-center">
+                <div class=" w-[50%] mm:w-[40%] ml:w-[35%] md:w-[45%] h-[inherit] flex">
                     <div class="border-r-[1px] border-r-solid border-r-[#6e6969] flex justify-center items-center ">
                         <img src="../color_lib/assets/logo.png" class=" w-[150px] px-[15px]" alt="">
                     </div>
@@ -48,18 +50,18 @@
                 </div>
             </div>
         </section>
-        <section class="flex ml-[20px] mr-[35px] h-[45px] lg:h-[60px] justify-between ">
+        <section class="flex ml-[20px] mr-[35px] h-[45px] lg:h-[70px] justify-between ">
             <a href="#" class="flex justify-center gap-[8px] items-center ">
                 <i class="fa-solid fa-star fa-2xl text-primary"></i>
                 <span class="font-medium text-[22px]">Startup</span>
             </a>
             <div class="flex items-center justify-center">
                 <nav class="hidden lg:flex justify-center gap-[20px] items-center">
-                    <li class="list-none "><a href="#" class="font-medium">Home</a></li>
-                    <li class="list-none"><a href="#" class="font-medium">About</a></li>
-                    <li class="list-none"><a href="#" class="font-medium">Services</a></li>
-                    <li class="list-none"><a href="#" class="font-medium">Blog</a></li>
-                    <li class="list-none"><a href="#" class="font-medium">Contact</a></li>
+                    <li class="list-none "><a href="#" class="font-medium hover:text-primary">Home</a></li>
+                    <li class="list-none"><a href="#" class="font-medium hover:text-primary">About</a></li>
+                    <li class="list-none"><a href="#" class="font-medium hover:text-primary">Services</a></li>
+                    <li class="list-none"><a href="#" class="font-medium hover:text-primary">Blog</a></li>
+                    <li class="list-none"><a href="#" class="font-medium hover:text-primary">Contact</a></li>
                     <li class="list-none flex justify-center items-center bg-primary px-[20px] py-[10px] rounded-md"><a
                             href="#">Join Us</a></li>
                 </nav>
@@ -72,11 +74,17 @@
             </a>
         </div>
     </header>
+
+    <!-----------------############# End of Header Section ##################------------->
     <main class="">
-        <section class="w-full object-contain md:grid md:grid-cols-2 md:grid-rows-1 ">
-            <div class="w-[100%] px-[40px] xl:px-[100px] h-[inherit] flex flex-col gap-[25px]  bg-[#FFDDB5]">
-                <p class="text-primary mt-[35px] md:mt-[65px] text-[14px] font-medium">WE ARE NEW BUT DOING GREAT</p>
-                <h1 class="font-semibold text-[25px] md:text-[33px]">We give the power <br class="hidden md:block"> back
+
+        <!-----------------############# Explore Us Section ##################------------->
+        <section class="w-full md:grid md:grid-cols-2 md:grid-rows-1 ">
+            <div
+                class="w-[100%] px-[40px] xl:px-[100px] flex h-[410px] md:h-[unset] justify-center flex-col gap-[25px]  bg-[#FFDDB5]">
+                <p class="text-primary text-[14px] font-medium">WE ARE NEW BUT DOING GREAT</p>
+                <h1 class="font-semibold text-[25px] md:text-[30px] lg:text-[45px]">We give the power <br
+                        class="hidden md:block">
                     to the user</h1>
                 <p class="text-[18px]">Content marketing is nothing but offering users value.<br
                         class="hidden xl:block"> It is not just about traffic minion customers.</p>
@@ -84,32 +92,111 @@
                     <div class="bg-primary rounded-md px-[30px] py-[12px]">Explore Us</div>
                 </a>
             </div>
-            <div class="w-[100%]"><img src="./assets/h1_hero1.jpg" class="hidden h-[inherit] md:block" alt=""></div>
+            <div class="w-[100%]"><img src="./assets/h1_hero1.jpg" class="w-[100%] hidden md:block md:h-[550px]" alt="">
+            </div>
         </section>
-        <section class="mt-[50px] container">
-            <h1 class="text-[24px] font-semibold">Services We Provide</h1>
-            <p class="text-[18px] mt-[30px] text-secondary">Content marketing is nothing but offering users value.It is not just about traffic minion customers.</p>
-            <div class="mt-[60px] grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-[35px]">
-                <div class="flex justify-center flex-col border-[1px] gap-[15px] px-[20px] py-[25px] w-[100%] border-solid border-[#c8c3c3]">
+        <!-----------------############# End of Explore Us Section ##################------------->
+
+        <!----------------############### Services We provide Section ############-->
+        <section class="mt-[50px] md:mt-[100px] container lg:px-[0px]">
+            <div class="block md:grid md:grid-cols-2 md:grid-rows-1 md:gap-[150px] md:items-center">
+                <h1 class="md:w-[100%] text-[25px] md:text-[35px] lg:text-[45px] font-semibold">Services We Provide
+                </h1>
+                <p class=" md:w-[100%] text-[18px] mt-[30px] md:mt-[unset] text-secondary">Content marketing is nothing
+                    but offering users value.It
+                    is
+                    not just about traffic minion customers.</p>
+            </div>
+            <div
+                class="mt-[60px] grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-[35px]">
+                <div
+                    class="flex justify-center flex-col border-[1px] gap-[15px] px-[20px] py-[25px] w-[100%] border-solid border-[#c8c3c3]">
                     <img src="./assets/services1.svg" class="mt-[15px] w-[57px]" alt="">
-                    <h2 class="font-semibold text-[20px]">Web Design</h2>
+                    <a href="#" class="font-semibold inline hover:text-primary text-[20px]">Web Design</a>
                     <p class="text-secondary">Content marketing is nothing but offering users value.</p>
-                    <a class="hover:text-primary underline decoration-2 decoration-black hover:decoration-primary decoration-solid underline-offset-[10px] mb-[20px]">Let's Talk</a>
+                    <a href="#"
+                        class="hover:text-primary underline decoration-2 decoration-black hover:decoration-primary decoration-solid underline-offset-[10px] mb-[20px]">Let's
+                        Talk</a>
                 </div>
-                <div class="flex justify-center flex-col border-[1px]  gap-[15px] px-[20px] py-[25px] w-[100%] border-solid border-[#c8c3c3]">
+                <div
+                    class="flex justify-center flex-col border-[1px] gap-[15px] px-[20px] py-[25px] w-[100%] border-solid border-[#c8c3c3]">
                     <img src="./assets/services2.svg" class="mt-[15px] w-[57px]" alt="">
-                    <h2 class="font-semibold text-[20px]">Web Design</h2>
+                    <a href="#" class="font-semibold hover:text-primary  text-[20px]">Web Design</a>
                     <p class="text-secondary">Content marketing is nothing but offering users value.</p>
-                    <a class="hover:text-primary underline decoration-2 decoration-black hover:decoration-primary decoration-solid underline-offset-[10px] mb-[20px]">Let's Talk</a>
+                    <a href="#"
+                        class="hover:text-primary underline decoration-2 decoration-black hover:decoration-primary decoration-solid underline-offset-[10px] mb-[20px]">Let's
+                        Talk</a>
                 </div>
-                <div class="flex justify-center flex-col border-[1px]  gap-[15px] px-[20px] py-[25px] w-[100%] border-solid border-[#c8c3c3]">
+                <div
+                    class="flex justify-center flex-col border-[1px]  gap-[15px] px-[20px] py-[25px] w-[100%] border-solid border-[#c8c3c3]">
                     <img src="./assets/services3.svg" class="mt-[15px] w-[57px]" alt="">
-                    <h2 class="font-semibold text-[20px]">E-Commerce</h2>
+                    <a href="#" class="font-semibold hover:text-primary text-[20px]">E-Commerce</a>
                     <p class="text-secondary">Content marketing is nothing but offering users value.</p>
-                    <a class="hover:text-primary underline decoration-2 decoration-black hover:decoration-primary decoration-solid underline-offset-[10px] mb-[20px]">Let's Talk</a>
+                    <a href="#"
+                        class="hover:text-primary underline decoration-2 decoration-black hover:decoration-primary decoration-solid underline-offset-[10px]">Let's
+                        Talk</a>
                 </div>
             </div>
         </section>
+        <!----------------############### End of Services We provide Section ############-->
+
+
+        <!-----------------############# Our Philosophy Section ##################------------->
+        <section class="mt-[50px] md:container md:max-w-[unset] md:p-0 md:mt-[100px]">
+            <div class="flex flex-col lg:flex-row  lg:gap-[unset] xl:gap-[40px] gap-[40px]">
+                <div class="w-[100%] lg:w-[50%] md:flex h-[550px]">
+                    <div class="hidden md:block bg-[#FFDDB5] w-[32px] xl:w-[48px]  h-[inherit]"></div>
+                    <div class="w-[inherit] lg:w-[100%] h-[inherit] bg-author bg-center bg-cover"></div>
+                </div>
+                <div
+                    class="container md:w-[70%] lg:w-[50%] mx-[unset] flex flex-col xl:pr-[100px] mb-[50px] lg:mb-[unset] justify-center gap-[45px]">
+                    <h1 class="text-[25px] md:text-[35px] lg:text-[45px] font-semibold md:font-bold">Our <br> Philosophy
+                    </h1>
+                    <div>
+                        <p class="text-secondary ">The automated process starts as soon as
+                            your clothes go into the machine. Duis cursus, mi quis
+                            viverra ornare, eros dolor interdum nulla, ut commodo
+                            diam libero vitae erat. Aenean faucibus nibh et justo
+                            cursus id rutrum lorem imperdiet. Nunc ut sem vitae
+                            risus tristique posuere.
+                            <br>
+                            <br>
+                            Interdum nulla, ut commodo diam libero vitae erat.
+                            Aenean faucibus nibh et justo cursus id rutrum lorem
+                            imperdiet. Nunc ut sem vitae risus tristique posuere.
+                        </p>
+                        <p class="mt-[20px]">CEO, Consulto</p>
+                        <h2 class="text-[30px] font-medium mt-[30px]">Capcilena Hanry</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------############# End of Our Our Philosophy Section ##################------------->
+
+        <!-----------------############# Affordable Pricing Plan Section ##################------------->
+        <section class="bg-primary w-[100%] container lg:max-w-[unset] lg:p-0 md:text-center h-[400px] text-white ">
+            <h1 class="text-[25px] md:text-[35px] pt-[70px] lg:text-[45px] font-semibold md:font-bold ">Affordable
+                Pricing Plan
+            </h1>
+            <p>Content marketing is nothing but offering users value. It is not just about
+                traffic
+                minion <br class="hidden xl:block"> consectetur adipiscing elitd do eiusmod tempor incididun.</p>
+            <div class="grid container p-0 grid-cols-1 mt-[40px]  text-black grid-rows-3 gap-[20px] ">
+                <div class="flex flex-col gap-[35px] bg-white pt-[40px] justify-center w-[2888px] items-center ">
+                    <a href="#" class="p-[5px_15px] rounded-full  border-black border-[1px] border-solid">
+                        <h2 class="font-semibold">Basic Info</h2>
+                    </a>
+                    <div class="flex text-primary text  justify-between ">
+                        <span class="items-start">$</span>
+                        <span class="items-end text">700</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-----------------############# End of Affordable Pricing Plan Section ##################------------->
     </main>
 </body>
 

@@ -3,8 +3,8 @@ module.exports = {
   content: ["./color_lib/**/*.{html,js}"],
   theme: {
     screens: {
-      mm:'375px',
-      ml:'425px',
+      mm: '375px',
+      ml: '425px',
       sm: '640px',
       md: '768px',
       lg: '960px',
@@ -13,7 +13,11 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#FF9100',
-        'secondary':'#5e5e5e'
+        'secondary': '#5e5e5e'
+      },
+
+      backgroundImage: {
+        'author': "url('../assets/about.jpg')",
       },
 
       fontFamily: {
@@ -26,7 +30,7 @@ module.exports = {
           DEFAULT: '1rem',
           sm: '2rem',
           lg: '3rem',
-          xl: '0rem',
+          xl: '3rem',
         },
 
       },
