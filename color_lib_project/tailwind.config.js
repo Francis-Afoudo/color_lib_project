@@ -12,8 +12,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        'primary': '#FF9100',
-        'secondary': '#5e5e5e'
+        'primary': '#033398',
+        'secondary': '#5e5e5e',
+        'other':'#ff9100'
       },
 
       backgroundImage: {
@@ -30,7 +31,7 @@ module.exports = {
           DEFAULT: '1rem',
           sm: '2rem',
           lg: '3rem',
-          xl: '3rem',
+          xl: '0rem',
         },
 
       },
