@@ -19,6 +19,7 @@ module.exports = {
 
       backgroundImage: {
         'author': "url('../assets/about.jpg')",
+        'about_us': "url('./assets/section-bg1.jpg')",
       },
 
       fontFamily: {
