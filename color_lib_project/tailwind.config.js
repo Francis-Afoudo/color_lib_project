@@ -34,7 +34,6 @@ module.exports = {
           lg: '3rem',
           xl: '0rem',
         },
-
       },
     },
   },
