@@ -5,7 +5,7 @@ class Our_philosophy extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML =`
-            <section class="mt-[50px] md:mt-[100px] hero_text">
+            <section class="mt-[50px] md:mt-[100px] our_philosophy">
                 <div class="flex flex-col lg:flex-row lg:gap-[unset] xl:gap-[40px] gap-[40px]">
                     <div class="w-[100%] lg:w-[50%] md:flex h-[500px] md:h-[750px]">
                         <div class="hidden md:block bg-[#FFDDB5] w-[32px] xl:w-[48px] h-[inherit]"></div>

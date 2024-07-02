@@ -20,6 +20,9 @@
     <script src="../color_lib/js/components/about_ceo.js"></script>
     <script src="../color_lib/js/components/blog.js"></script>
     <script src="../color_lib/js/components/footer.js"></script>
+    <script src="../color_lib/js/components/services1.js"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+
 
 
 </head>
@@ -50,25 +53,94 @@
         </section>
         <!-----------------############# End of About Us Section ##################------------->
 
-        <!--############################ Conversion requirements section   ################################-->
-        <conversion-requirements-component></conversion-requirements-component>
-        <!--############################ End of Conversion Requirements section   ################################-->
-
-
         <!-----------------############# Our Philosophy Section ##################------------->
         <our-philosophy-component></our-philosophy-component>
         <!-----------------############# End of Our Our Philosophy Section ##################------------->
 
+        <!-----------------############# Our Vision Section ##################------------->
+        <section class="container text-center my-[50px] md:my-[100px]">
+            <h1 class="text-[25px] md:text-[35px] md:self-center lg:text-[45px] font-semibold md:font-bold">
+                Our Vision
+            </h1>
+            <p class="mt-[20px] text-lg lg:text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe,
+                facilis aliquam? Vel ut deleniti ducimus quas porro velit, recusandae rerum iure sequi architecto modi
+                nisi enim! Dolor tempora ad rerum.
+                Harum consectetur aliquam accusantium ex ullam maxime eaque architecto alias aspernatur, magni, sunt
+                repellendus, tenetur inventore. A odit iusto, sequi quisquam vitae provident illum, excepturi nisi
+                voluptates quidem autem inventore?
+                Exercitationem, omnis. Sint dicta quo tenetur! Magnam inventore vel eveniet rerum blanditiis.
+                Praesentium quibusdam quam modi voluptate voluptates, repellat dolorem in eligendi, reiciendis
+                dignissimos magni tenetur delectus explicabo at laudantium.</p>
+        </section>
+        <!-----------------############# Our Vision Section ##################------------->
 
+        <!-----------------############# Our Mission Section ##################------------->
+        <section class="container text-center my-[50px] md:my-[100px]">
+            <h1 class="text-[25px] md:text-[35px] md:self-center lg:text-[45px] font-semibold md:font-bold">
+                Our Mission
+            </h1>
+            <p class="mt-[20px] text-lg lg:text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe,
+                facilis aliquam? Vel ut deleniti ducimus quas porro velit, recusandae rerum iure sequi architecto modi
+                nisi enim! Dolor tempora ad rerum.
+                Harum consectetur aliquam accusantium ex ullam maxime eaque architecto alias aspernatur, magni, sunt
+                repellendus, tenetur inventore. A odit iusto, sequi quisquam vitae provident illum, excepturi nisi
+                voluptates quidem autem inventore?
+                Exercitationem, omnis. Sint dicta quo tenetur! Magnam inventore vel eveniet rerum blanditiis.
+                Praesentium quibusdam quam modi voluptate voluptates, repellat dolorem in eligendi, reiciendis
+                dignissimos magni tenetur delectus explicabo at laudantium.</p>
+        </section>
+        <!-----------------############# Our Mission Section ##################------------->
 
-        <!--############################ More About Ceo section   ################################-->
-        <about-ceo-component></about-ceo-component>
-        <!--############################ More About ceo section   ################################-->
+        <!-----------------############# Our Leadership Section ##################------------->
+        <section class=" h-[900px] bg-primary text-white md:h-[1000px] lg:h-[700px] ">
+            <div class="container flex items-center gap-[40px] h-[inherit] justify-center flex-col ">
+                <h1
+                    class="text-[25px] md:text-[35px] self-start md:self-center lg:text-[45px] font-semibold md:font-bold">
+                    Our Leadership
+                </h1>
+                <p class="text-center text-[16px] md:text-[18px]">Meet our leadership team at Billpoint! We are
+                    passionate professionals dedicated to financial inclusion and innovation, bringing diverse expertise
+                    in tech, finance, and business to our platform.</p>
+                <div
+                    class="grid grid-cols-2 grid-rows-2 md:grid-cols-3 md:grid-rows-2 gap-[40px] lg:grid-cols-4 lg:grid-rows-1">
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="rounded-full  w-[130px] h-[130px] md:w-[200px] md:h-[200px] overflow-hidden">
+                            <img src="./assets/blog1.jpg" class="object-cover w-full h-full" alt="">
+                        </div>
+                        <h2 class="font-medium text-xl mt-[10px] lg:text-[25px]">Ojisom Klinton</h2>
+                        <p>General Manager</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px] overflow-hidden">
+                            <img src="./assets/blog2.jpg" class="object-cover w-full h-full" alt="">
+                        </div>
+                        <h2 class="font-medium text-xl mt-[10px] lg:text-[25px]">Jideofor Obiageli</h2>
+                        <p>Chief accountant</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px] overflow-hidden">
+                            <img src="./assets/blog3.jpg" class="object-cover w-full h-full" alt="">
+                        </div>
+                        <h2 class="font-medium text-xl mt-[10px] lg:text-[25px]">Akpunonu Blessing</h2>
+                        <p>Media/Manager</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="rounded-full w-[130px] h-[130px] md:w-[200px] md:h-[200px] overflow-hidden">
+                            <img src="./assets/blog3.jpg" class="object-cover w-full h-full" alt="">
+                        </div>
+                        <h2 class="font-medium text-xl mt-[10px] lg:text-[25px]">Agudiegwu Ujunwa</h2>
+                        <p>Branch manager</p>
+                    </div>
+                </div>
+            </div>
 
+        </section>
+        <!-----------------############# End of Our Leadership Section ##################------------->
 
-        <!--############################ Blog section ################################-->
-        <blog-component></blog-component>
-        <!--############################ Blog section ################################-->
+        <!----------------############### Services We provide Section ############-->
+        <services1-component></services1-component>
+        <!----------------############### End of Services We provide Section ############-->
+
 
         <!-----------------############# Footer Section ##################------------->
         <footer-component></footer-component>

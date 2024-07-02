@@ -9,10 +9,13 @@ const sr = ScrollReveal({
 // hero
 sr.reveal('.hero_text', { origin: 'top', distance: '50px', interval: 100 });
 
+sr.reveal('.our_philosophy', { origin: 'top', distance: '50px', interval: 40 });
+
+
 
 sr.reveal('.from_bottom_text', { origin: 'bottom', distance: '50px', interval: 100 });
 
-sr.reveal('.from_right_image', { origin: 'right', distance: '50px', interval: 50 });
+sr.reveal('.from_right_image', { origin: 'right', distance: '20px', interval: 20 });
 
 
 //steps

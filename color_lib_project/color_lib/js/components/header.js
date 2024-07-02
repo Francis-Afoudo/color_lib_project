@@ -42,29 +42,29 @@ class Header extends HTMLElement {
                     </div>
                 </div>
             </section>
-            <section class="flex container flex-col md:max-w-[unset] lg:px-0 ">
+            <section class="flex container flex-col ">
                 <div class="container flex items-center  lg:px-[32px] lg:max-w-[unset] justify-between  ">
                     <img src="./assets/sting-logo.jpg" class="py-1 md:py-2 w-14 lg:w-20" alt="">
-                        <div class="flex items-center justify-center">
-                            <nav class="hidden lg:flex justify-center gap-[20px] items-center">
+                        <div class="flex items-center text-base md:text-xl justify-center">
+                            <nav class="hidden lg:flex justify-center gap-[40px] items-center">
                                 <li class="list-none"><a href="./index.html" class="font-medium hover:text-primary">Home</a></li>
                                 <li class="list-none"><a href="./about.html"
                                     class="font-medium hover:text-primary">About</a></li>
                                 <li class="list-none"><a href="./services.html"
                                     class="font-medium hover:text-primary">Services</a></li>
-                                <li class="list-none"><a href="./blog.html" class="font-medium hover:text-primary">Blog</a></li>
+                                <!-- <li class="list-none"><a href="./blog.html" class="font-medium hover:text-primary">Blog</a></li> -->
                                 <li class="list-none"><a href="./contact.html"
                                     class="font-medium hover:text-primary">Contact</a></li>
-                                <a href="#" class="list-none text-white bg-primary px-[20px] py-[10px] rounded-md">
+                               <!-- <a href="./login.html" class="list-none text-white bg-primary px-[20px] py-[10px] rounded-md">
                                     <li>Join Us</li>
-                                </a>
+                                </a> -->
                             </nav>
                         </div>
                 </div>
             </section>
             <div class="flex md:container ">
                 <div
-                    class="lg:hidden absolute top-[100%] md:top-[94%] w-full h-[50px] mx-auto flex bg-[#444] md:w-[90%] items-center justify-end">
+                    class="lg:hidden absolute top-[100%] md:top-[94%] z-20 w-full h-[50px] mx-auto flex bg-[#444] md:w-[90%] items-center justify-end">
                     <a href="#" class="bg-[#222] px-[8px] py-[6px] rounded-md my-[7px] mr-[15px]">
                         <span class="text-white font-medium">MENU&nbsp;<i class="fa-solid fa-bars"></i></span>
                     </a>

@@ -15,17 +15,15 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="../color_lib/js/components/back_to_top.js"></script>
     <script src="../color_lib/js/components/header.js"></script>
-    <script src="../color_lib/js/components/services.js"></script>
+    <!-- <script src="../color_lib/js/components/services.js"></script> -->
+    <script src="../color_lib/js/components/services1.js"></script>
     <script src="../color_lib/js/components/our_philosophy.js"></script>
     <script src="../color_lib/js/components/pricing_plan.js"></script>
     <script src="../color_lib/js/components/conversion_requirements_component.js"></script>
     <script src="../color_lib/js/components/about_ceo.js"></script>
     <script src="../color_lib/js/components/blog.js"></script>
     <script src="../color_lib/js/components/footer.js"></script>
-
-
-
-
+    <script src="//unpkg.com/alpinejs" defer></script>
 
 </head>
 
@@ -43,7 +41,7 @@
     <main>
 
         <!-----------------############# Explore Us Section ##################------------->
-        <section class="w-full md:grid md:grid-cols-2 md:grid-rows-1 ">
+        <section class="w-full md:grid md:grid-cols-2 md:grid-rows-1 overflow-hidden ">
             <div
                 class="px-[40px] xl:px-[150px] flex h-[500px] md:h-[unset] justify-center flex-col gap-[25px]  bg-[#FFDDB5]">
                 <p class="text-primary lg:text-2xl font-medium mt-[75px] lg:mt-[unset] hero_text" id="hero_text">WE ARE NEW BUT DOING GREAT</p>
@@ -65,7 +63,9 @@
 
 
         <!----------------############### Services We provide Section ############-->
-        <services-component></services-component>
+        <!-- <services-component></services-component> -->
+        <services1-component></services1-component>
+
         <!----------------############### End of Services We provide Section ############-->
 
 
@@ -76,7 +76,7 @@
 
 
         <!-----------------############# Affordable Pricing Plan Section ##################------------->
-        <pricing-plan-component></pricing-plan-component>
+        <!-- <pricing-plan-component></pricing-plan-component> -->
         <!-----------------############# End of Affordable Pricing Plan Section ##################------------->
 
 
@@ -95,7 +95,7 @@
 
 
         <!--############################ Blog section   ################################-->
-        <blog-component></blog-component>
+        <!-- <blog-component></blog-component> -->
         <!--############################ Blog section   ################################-->
 
 
@@ -104,7 +104,6 @@
         <!-----------------############# Footer Section ##################------------->
     </main>
 </body>
-
 
 <script src="../color_lib/js/scrollreveal.min.js"></script>
 <script src="../color_lib/js/main.js"></script>

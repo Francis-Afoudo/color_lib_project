@@ -19,7 +19,7 @@ class Blog extends HTMLElement {
                             </div>
                             <div class="relative">
                                 <a href="#"
-                                    class="absolute rounded-full hidden md:flex top-[40%] w-[50px] h-[50px] justify-center items-center md:left-0 lg:left-[-10px] xl:left-[-80px] z-10 bg-black text-other">
+                                    class="absolute rounded-full hidden md:flex top-[40%] w-[50px] h-[50px] justify-center items-center md:left-0 lg:left-[-10px] min-[1440px]:left-[-80px] z-10 bg-black text-other">
                                     <i class="fa-solid fa-arrow-left  fa-lg"></i>
                                 </a>
                                 <img src="./assets/blog1.jpg" alt="">
@@ -49,7 +49,7 @@ class Blog extends HTMLElement {
                             </div>
                             <div class="relative">
                                 <a href="#"
-                                    class="absolute hidden md:flex rounded-full top-[40%] items-center justify-center shadow-2xl w-[50px] h-[50px] xl:right-[-80px] lg:right-[-10px] md:right-0 z-10  bg-black text-other">
+                                    class="absolute hidden md:flex rounded-full top-[40%] items-center justify-center shadow-2xl w-[50px] h-[50px] lg:right-[-10px] min-[1440px]:right-[-80px] md:right-0 z-10  bg-black text-other">
                                     <i class="fa-solid fa-arrow-right fa-lg"></i>
                                 </a>
                                 <img src="./assets/blog3.jpg" alt="">

@@ -79,7 +79,8 @@ class Footer extends HTMLElement {
                             </div>
                         </div>
                     </div>
-                    <p class="text-center text-[14px] md:text-[18px]">Copyright @20XX. All Rights Reserved | This template
+                    <p class="text-center text-[14px] md:text-[18px]">Copyright @<span x-text="new Date().getFullYear()"></span>
+. All Rights Reserved | This template
                         is made with <i class="fa-solid fa-heart fa-lg text-other"></i> by <span
                             class="text-other">Colorlib</span>
                     </p>

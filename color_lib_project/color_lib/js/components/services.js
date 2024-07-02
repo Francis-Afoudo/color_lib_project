@@ -19,6 +19,7 @@ class Services extends HTMLElement {
                 class="mt-[60px] grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-[35px]">
                 <div
                     class="flex justify-center flex-col border-[1px] gap-[15px] px-[20px] py-[25px] h-[350px] w-[100%] border-solid border-[#c8c3c3]">
+                
                     <img src="./assets/services1.svg" class="w-[57px]" alt="">
                     <div>
                         <a href="#" class="font-semibold inline hover:text-primary text-[20px]">Web Design</a>
