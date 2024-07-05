@@ -4,10 +4,10 @@ class Header extends HTMLElement {
     }
 
     connectedCallback() {
-        this.innerHTML = 
-        `
+        this.innerHTML = `
+        
         <header class="relative ">
-            <section class="bg-[#444] h-[60px]">
+           <!--  <section class="bg-[#444] h-[60px]">
                 <div class="flex justify-between w-[100%] h-[inherit]">
                     <div class=" w-[50%] mm:w-[40%] ml:w-[35%] md:w-[45%] flex">
                         <div class="border-r-[1px] border-r-solid border-r-[#6e6969] flex justify-center items-center ">
@@ -41,10 +41,10 @@ class Header extends HTMLElement {
                         </a>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <section class="flex container flex-col ">
-                <div class="container flex items-center  lg:px-[32px] lg:max-w-[unset] justify-between  ">
-                    <img src="./assets/sting-logo.jpg" class="py-1 md:py-2 w-14 lg:w-20" alt="">
+                <div class="container flex items-center  justify-between  ">
+                    <a href="./index.html"><img src="./assets/sting-logo.jpg" class="py-1 md:py-2 w-14 lg:w-20" alt=""></a>
                         <div class="flex items-center text-base md:text-xl justify-center">
                             <nav class="hidden lg:flex justify-center gap-[40px] items-center">
                                 <li class="list-none"><a href="./index.html" class="font-medium hover:text-primary">Home</a></li>

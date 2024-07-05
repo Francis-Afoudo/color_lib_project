@@ -19,10 +19,10 @@ class Footer extends HTMLElement {
                                     dominion creepeth morning
                                     laboris nisi ufsit aliquip.</p>
                                 <div class="flex gap-[20px]">
-                                    <a href="#"><i class="fa-brands fa-square-twitter fa-xl"></i></a>
+                                    <a href="#"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
                                     <a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
                                     <a href="#"><i class="fa-brands fa-linkedin fa-xl"></i></a>
-                                    <a href="#"><i class="fa-brands fa-square-pinterest fa-xl"></i></a>
+
                                 </div>
                         </div>
                         <div class="flex flex-col lg:ml-[65px] gap-[15px]">
@@ -38,9 +38,6 @@ class Footer extends HTMLElement {
                                 <div>
                                     <a href="./services.html"
                                         class="hover:underline text-[14px] md:text-[18px]">Services</a>
-                                </div>
-                                <div>
-                                    <a href="./blog.html" class="hover:underline text-[14px] md:text-[18px]">Blog</a>
                                 </div>
                                 <div>
                                     <a href="./contact.html" class="hover:underline text-[14px] md:text-[18px]">Contacts</a>
@@ -80,9 +77,7 @@ class Footer extends HTMLElement {
                         </div>
                     </div>
                     <p class="text-center text-[14px] md:text-[18px]">Copyright @<span x-text="new Date().getFullYear()"></span>
-. All Rights Reserved | This template
-                        is made with <i class="fa-solid fa-heart fa-lg text-other"></i> by <span
-                            class="text-other">Colorlib</span>
+. All Rights Reserved</span>
                     </p>
                 </div>
             </footer>
