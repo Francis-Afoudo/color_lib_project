@@ -5,19 +5,15 @@ class Footer extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML =
-        `
-            <footer class="bg-primary h-[920px] md:h-[650px] lg:h-[400px] text-white">
+`
+            <footer class="bg-primary h-[1020px] md:h-[850px] lg:h-[550px] text-white">
                 <div
-                    class="container h-[inherit] flex flex-col gap-[25px] md:gap-[50px] justify-center items-center md:h-[inherit]">
+                    class="container h-[inherit] pt-[30px] md:pt-[70px] flex flex-col gap-[50px] md:gap-[100px] justify-center md:items-center md:h-[inherit]">
                     <div
                         class="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 gap-[25px] ">
                         <div class="flex flex-col gap-[15px]">
                             <img src="./assets/sting-logo.jpg" class="py-2 w-14 lg:w-20" alt="">
-                                <p class="text-[14px] md:text-[18px] ">Land behold it created good saw after she'd Our set
-                                    living. Signs
-                                    midst
-                                    dominion creepeth morning
-                                    laboris nisi ufsit aliquip.</p>
+                                <p class="text-[14px] md:text-[18px] ">We offer you the best experience and prepare you for your dream future!</p>
                                 <div class="flex gap-[20px]">
                                     <a href="#"><i class="fa-brands fa-square-x-twitter fa-xl"></i></a>
                                     <a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
@@ -49,39 +45,44 @@ class Footer extends HTMLElement {
 
                             <div class="flex gap-[10px] flex-col">
                                 <div>
-                                    <a href="#" class="hover:underline text-[14px] md:text-[18px]">Blackforest</a>
+                                    <span class="text-[14px] md:text-[18px]">Digital Services</span>
                                 </div>
                                 <div>
-                                    <a href="#" class="hover:underline text-[14px] md:text-[18px]">Bodhubon</a>
+                                    <span class="text-[14px] md:text-[18px]">Career Orientation</span>
                                 </div>
                                 <div>
-                                    <a href="#" class="hover:underline text-[14px] md:text-[18px]">Services</a>
+                                    <span class="text-[14px] md:text-[18px]">Agriculture</span>
                                 </div>
                                 <div>
-                                    <a href="#" class="hover:underline text-[14px] md:text-[18px]">Rongdonu</a>
+                                    <span class="text-[14px] md:text-[18px]">Driving Lessons</span>
+                                </div>
+
+                                <div>
+                                    <span class="text-[14px] md:text-[18px]">Health</span>
                                 </div>
                                 <div>
-                                    <a href="#" class="hover:underline text-[14px] md:text-[18px]">Meghrong</a>
+                                    <span class="text-[14px] md:text-[18px]">Concours information</span>
+                                </div>
+                                <div>
+                                    <span class="text-[14px] md:text-[18px]">Social Action</span>
                                 </div>
                             </div>
                         </div>
                         <div class="flex flex-col gap-[15px]">
                             <h2 class="text-lg font-semibold">Contact Us</h2>
-                            <address class="not-italic" class="text-[14px] md:text-[18px]">76/A, Green Lane, Dhanmondi, NYC
+                            <address class="not-italic" class="text-[14px] md:text-[18px]">Beside Ecobank, Molyko, Buea, South West Region, Cameroon
                             </address>
                             <div>
-                                <a href="#">
-                                    <span class="text-other font-semibold text-2xl">+(237) 6 22 15 60 46</span>
-                                </a>
+                                    <span class="text-other font-semibold text-2xl">+(237) 6 74 67 44 43</span>
                             </div>
                         </div>
                     </div>
                     <p class="text-center text-[14px] md:text-[18px]">Copyright @<span x-text="new Date().getFullYear()"></span>
-. All Rights Reserved</span>
+                        . All Rights Reserved</span>
                     </p>
                 </div>
-            </footer>
-        `;
+            </footer >
+            `;
     }
 
 }

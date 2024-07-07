@@ -6,7 +6,7 @@ class Top extends HTMLElement {
     connectedCallback() {
         this.innerHTML =`
             <div>
-                <a href="https://wa.me/237673125746"
+                <a href="https://wa.me/237674674443"
                     class=" bottom-[120px] right-4 md:right-10  shadow-2xl fixed z-40">
                     <img src="./assets/whatsapp_icon-removebg-preview.png" class=" w-[60px] h-[60px]">
                 </a>
